@@ -1,0 +1,6 @@
+#Facts
+Parent(John,Mary)
+Child(Mary,Alice)
+
+#Horn
+Parent(x,y) & Child(y,z) -> Grandparent(x,z)
